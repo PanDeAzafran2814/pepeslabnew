@@ -1,0 +1,70 @@
+{
+    "Nav":{
+        "Scrool":"SCROLL",
+        "Back":"BACK TO TOP",
+        "1":"ABOUT US",
+        "2":"ROADMAP",
+        "3":"TEAM",
+        "4":"MINT NOW"
+    },
+    "IndexBanner":{
+        "welcome":"WELCOME TO",
+        "join":"JOIN THE EXPERIENCE!",
+        "mint":"MINT TODAY"
+    },
+    "Welcome":{
+        "Tittle":"WELCOME TO PEPE’S LAB",
+        "Info":"Pepe’s Lab represents a project that is building a strong NFT community within the music entertainment industry. Pepe’s Lab branded ventures will include live concerts, events, festivals, unique merchandise, and more. Pepe’s Lab will have real utilities for both the physical World and the Metaverse.",
+        "Btn":"JOIN US ON DISCORD"
+    },
+    "ThePass":{
+        "SubTittle":"The Pass",
+        "Tittle":"PEPE’S LAB PASS",
+        "Info":"Built on the Solana blockchain, Pepe’s Lab Pass will give holders exclusive access to Pepe’s Lab and its branded projects. There will be a limited supply of 15,050 Pepe’s Lab Pass NFTs. There will be 14,500 Pepe’s Lab Pass and 500 Pepe’s Lab Pass (VIP) minted to the public. Fifty (50) of the VIP passes will be given out to influencers, collaborators, early supporters, and our team.",
+        "Btn":"MINT TODAY"
+    },
+    "LCollection":{
+        "Tittle":"Limited Collection",
+        "Head1":"ONLY 15,050",
+        "Head2":"LIMITED",
+        "Head3":"HOLDERS"
+    },
+    "MintAvailable":{
+        "Head1":"MINT - AVAILABLE - TODAY",
+        "Head2":"- 15,050 - NFTS - LIMITED PASS",
+        "Head3":"PEPE’S - LAB - COLLECTION"
+    },
+    "RoadMap":{
+        "25":"Merchandise",
+        "25Title":"The official release of Pepe’s Lab merchandise store.",
+        "50":"Pepe’s Lab 1st Event",
+        "50Title":"We will start organizing our first live event for all the Pepe’s Lab Pass holders.",
+        "75":"Pepe’s Lab in the Metaverse",
+        "75Title":"We will acquire land in the Metaverse to build our very own entertainment complexes including arenas, lounges, and clubs.",
+        "100":"Create Pepe’s Lab Project Wallet",
+        "100Title":"After Pepe’s Lab Pass is sold-out we will allocate 50% of the funds into this wallet. We will use this wallet to fund our future projects and events."
+    },
+    "Faq":{
+        "Tittle":"Frequently Asked Questions",
+        "Question1":"What is an NFT?",
+        "Anw1":"NFT stands for 'non-fungible token’. An NFT can represent a unique piece of art, music, or a game token that is stored on the blockchain. An NFT is basically data that is accounted for in a digital ledger, and that data represents something specific and unique that can be sold or traded.",
+        "Question2":"What is a “Pepe’s Lab Pass”?",
+        "Anw2":"Pepe’s Lab Pass is an exclusive NFT membership pass for Pepe’s Lab community and it is built on the Solana blockchain.",
+        "Question3":"How many Pepe's Lab Passes are there?",
+        "Anw3":"There will be a very limited supply of 15,050 original passes and once they sell out, the only way to get one it will be through secondary market called Magic Eden.",
+        "Question4":"What can I do with my Pepe’s Lab Pass?",
+        "Anw4":"Pepe’s Lab Pass will give holders exclusive access to Pepe’s Lab and its branded projects both in the physical World and the Metaverse which will include live concerts, events, festivals, unique merchandise, and much more.",
+        "Question5":"Can I sell my Pepe’s Lab Pass?",
+        "Anw5":"Yes, just like most NFTs, Pepe’s Lab Pass holders will be able to trade their pass on the secondary marketplace.",
+        "Question6":"When will I be able to buy a Pepe’s Lab Pass?",
+        "Anw6":"We will start growing a pre-sale whitelist, but pre-sale and sale dates are to be determined. Join our Discord channel stay up to date."
+    },
+    "Final":{
+        "Text":"our adventure will not stop until we are the most popular Music NFT in the metaverse"
+    },
+    "Footer":{
+        "Follow":"Follow Us",
+        "Btn":"JOIN OUR DISCORD",
+        "Copy":"® 2022 Pepe’s Lab. All rights reserved"
+    }
+}
