@@ -13,6 +13,7 @@
     "all": "^0.0.0",
     "aos": "^2.3.4",
     "ethers": "^5.7.2",
+    "i18next": "^22.0.4",
     "react": "^18.0.0",
     "react-bootstrap": "^2.3.0",
     "react-bootstrap-accordion": "^1.0.0",

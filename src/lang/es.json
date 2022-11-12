@@ -1,70 +1,23 @@
 {
-    "Nav":{
-        "Scrool":"DESPLAZARSE",
-        "Back":"VOLVER A ARRIBA",
-        "1":"SOBRE NOSOTROS",
-        "2":"MAPA VIAL",
-        "3":"EQUIPO",
-        "4":"MINT AHORA"
+    "Home":{
+        "Welcome":"Bienvenido A",
+        "Message":"Los Pepes is a digital assets collection created by Pepe's Lab. Holders will enjoy awesome utilities such as, giveaways, discounts on merchandise and live music events, automatic whitelist spot to future NFT drops and more.",
+        "Btn":"Conecta Tu Wallet"
     },
-    "IndexBanner":{
-        "welcome":"WELCOME TO",
-        "join":"¡ÚNETE A LA Experiencia!",
-        "mint":"MINT HOY"
-    },
-    "Welcome":{
-        "Tittle":"BIENVENIDO AL Pepe's Lab",
-        "Info":"Pepe's Lab representa un proyecto que está construyendo una fuerte comunidad NFT dentro de la industria del entretenimiento musical. Las empresas de la marca Pepe's Lab incluirán conciertos en vivo, eventos, festivales, productos únicos y más. El Pepe's Lab tendrá utilidades reales tanto para el Mundo físico como para el Metaverso.",
-        "Btn":"Únete a nosotros en Discord"
-    },
-    "ThePass":{
-        "SubTittle":"El Pase",
-        "Tittle":"PASE DE Pepe's Lab",
-        "Info":"Basado en la cadena de bloques de Solana, Pepe's Lab Pass brindará a los titulares acceso exclusivo a Pepe's Lab y sus proyectos de marca. Habrá una cantidad limitada de 15,050 NFT de Pepe's Lab Pass. Habrán 14.500 Pepe's Lab Pass y 500 Pepe's Lab Pass (VIP) para el público. Cincuenta (50) de los pases VIP se entregarán a personas influyentes, colaboradores, primeros seguidores y nuestro equipo.",
-        "Btn":"MINT HOY"
-    },
-    "LCollection":{
-        "Tittle":"Colección limitada",
-        "Head1":"SOLO 15,050",
-        "Head2":"TITULARES",
-        "Head3":"LIMITADOS"
-    },
-    "MintAvailable":{
-        "Head1":"MINT - DISPONIBLE - HOY DIA",
-        "Head2":"- 15,050 - NFT - PASE LIMITADO",
-        "Head3":"PEPE’S - LAB - COLECCIÓN"
+    "About":{
+
     },
     "RoadMap":{
-        "25":"Mercancía",
-        "25Title":"El lanzamiento oficial de la tienda de mercancía de Pepe's Lab.",
-        "50":"Primer Evento De Pepe's Lab",
-        "50Title":"Comenzaremos a organizar nuestro primer evento en vivo para todos los titulares de Pepe's Lab Pass.",
-        "75":"El Pepe's Lab en el metaverso",
-        "75Title":"Adquiriremos terrenos en el Metaverso para construir nuestros propios complejos de entretenimiento, incluidos estadios, salones y clubes.",
-        "100":"Crea la cartera del proyecto Pepe's Lab",
-        "100Title":"Después de que Pepe's Lab Pass se agote, asignaremos el 50% de los fondos a esta cartera. Usaremos esta cartera para financiar nuestros futuros proyectos y eventos."
+
+    },
+    "Team":{
+
+    },
+    "Nft":{
+
     },
     "Faq":{
-        "Tittle":"Preguntas frecuentes",
-        "Question1":"¿Qué es un NFT?",
-        "Anw1":"NFT significa 'token no fungible'. Un NFT puede representar una obra de arte, música o un token de juego únicos que se almacenan en la cadena de bloques. Un NFT es básicamente información que se contabiliza en un libro de contabilidad digital, y esa información representa algo específico y único que se puede vender o intercambiar.",
-        "Question2":"¿Qué es un “Pase Pepe's Lab”?",
-        "Anw2":"Pepe's Lab Pass es un pase de membresía NFT exclusivo para la comunidad de Pepe's Lab y se basa en la cadena de bloques de Solana.",
-        "Question3":"¿Cuántos pases de Pepe's Lab hay?",
-        "Anw3":"Habrá una oferta muy limitada de 15.050 pases originales y una vez que se agoten, la única forma de obtener uno será a través del mercado secundario llamado Magic Eden.",
-        "Question4":"¿Qué puedo hacer con mi Pepe’s Lab Pass?",
-        "Anw4":"Pepe's Lab Pass otorgará a los titulares acceso exclusivo a Pepe's Lab y sus proyectos de marca tanto en el mundo físico como en el metaverso, que incluirán conciertos en vivo, eventos, festivales, productos exclusivos y mucho más.",
-        "Question5":"¿Puedo vender mi Pepe's Lab Pass?",
-        "Anw5":"Sí, al igual que la mayoría de los NFT, los titulares de Pepe's Lab Pass podrán intercambiar su pase en el mercado secundario.",
-        "Question6":"¿Cuándo podré comprar un Pepe’s Lab Pass?",
-        "Anw6":"Comenzaremos a desarrollar una lista blanca de preventa, pero las fechas de preventa y venta están por determinarse. Únase a nuestro canal Discord para mantenerse actualizado."
-    },
-    "Final":{
-        "Text":"nuestra aventura no se detendrá hasta que seamos el NFT musical más popular del metaverso"
-    },
-    "Footer":{
-        "Follow":"Síguenos",
-        "Btn":"ÚNETE A NUESTRO DISCORD",
-        "Copy":"® 2022 El Pepe's Lab. Todos los derechos reservados"
+
     }
+
 }
