@@ -7,6 +7,7 @@ import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 import TeamItem from './team-item';
+import { useTranslation } from 'react-i18next';
 
 Team.propTypes = {
     data: PropTypes.array,
@@ -15,6 +16,7 @@ Team.propTypes = {
 function Team(props) {
 
     const {data} = props;
+    const [t, i18n] = useTranslation("global")
 
     const [dataBlock] = useState({
         subtitle: 'Our team',
@@ -28,8 +30,8 @@ function Team(props) {
                 <div className="row">
                     <div className="col-xl-5 col-lg-5 col-md-6 col-12">
                         <div className="tf-title st2 mb-61" data-aos="fade-up" data-aos-duration="800">
-                            <p className="h8 sub-title">{dataBlock.subtitle}</p>
-                            <h4 className="title">{dataBlock.title}</h4>
+                            <p className="h8 sub-title">{t("Team.Tittle")}</p>
+                            <h4 className="title">{t("Team.Meet")}</h4>
                         </div>
                         <div className="content mobie-30" data-aos="fade-up" data-aos-duration="800">
                             <div className="h7 txt-tranf-cap m-b16">

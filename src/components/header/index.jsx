@@ -9,10 +9,11 @@ import { ConnectWallet } from "@thirdweb-dev/react";
 
 
 import { Link, animateScroll as scroll } from "react-scroll";
-
+import { useTransition } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
-
+    const [t, i18n] = useTranslation("global")
     const [scroll, setScroll] = useState(false);
         useEffect(() => {
         window.addEventListener("scroll", () => {
@@ -45,39 +46,90 @@ const Header = () => {
                     </div>
                     <nav id="main-nav" className={`main-nav ${menuActive ? 'active' : ''}`} >
                         <ul id="menu-primary-menu" className="menu">
-
-                            {
-                                menus.map((data,idx) => (
-                                    <li key={idx} onClick={()=> handleDropdown(idx)} className={`menu-item ${data.namesub ? 'menu-item-has-children' : ''} ${activeIndex === idx ? 'active' : ''}`} 
-                                    
-                                    >
-                                        <Link
-                                            activeClass="active"
-                                            to={data.links}
-                                            spy={true}
-                                            smooth={true}
-                                            offset={-70}
-                                            duration={500}
-                                         
-                                        >{data.name}</Link>
-                                        {
-                                            data.namesub &&
-                                            <ul className="sub-menu">
-                                                {
-                                                    data.namesub.map((submenu) => (
-                                                        <li key={submenu.id} className="menu-item"><NavLink to={submenu.links}>{submenu.sub}</NavLink></li>
-                                                    ))
-                                                }
-                                            </ul>
-                                        }
-                                        
+                            <li className={`menu-item `} >
+                                <Link
+                                    activeClass="active"
+                                    to={"Home"}
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                            
+                                >{t("Nav.Home")}</Link>
+                            </li>
+                            <li className={`menu-item `} >
+                                <Link
+                                    activeClass="active"
+                                    to={"About"}
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                            
+                                >{t("Nav.About")}</Link>
+                            </li>
+                            <li className={`menu-item `} >
+                                <Link
+                                    activeClass="active"
+                                    to={"RoadMap"}
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                            
+                                >{t("Nav.RoadMap")}</Link>
+                            </li>
+                            <li className={`menu-item `} >
+                                <Link
+                                    activeClass="active"
+                                    to={"Team"}
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                            
+                                >{t("Nav.Team")}</Link>
+                            </li>
+                            <li className={`menu-item `} >
+                                <Link
+                                    activeClass="active"
+                                    to={"Nft"}
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                            
+                                >{t("Nav.Nft")}</Link>
+                            </li>
+                            <li className={`menu-item `} >
+                                <Link
+                                    activeClass="active"
+                                    to={"Faq"}
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                            
+                                >{t("Nav.Faq")}</Link>
+                            </li>
+                            <li className={`menu-item `} >
+                                <Link>
+                                    lng
+                                </Link>
+                                <ul className="sub-menu">
+                                    <li onClick={()=>{i18n.changeLanguage("es")}} className="menu-item">
+                                            <Link onClick={()=>{i18n.changeLanguage("es")}}>Español</Link>
                                     </li>
-                                ))
-                            }
+                                    <li onClick={()=>{i18n.changeLanguage("en")}} className="menu-item">
+                                            <Link onClick={()=>{i18n.changeLanguage("en")}}>Ingles</Link>
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
                     </nav>
                     <div className="main-web3">
                         <ConnectWallet />
+
                     </div>
 
                     <div className={`mobile-button ${menuActive ? 'active' : ''}`} onClick={handleMenuActive}><span></span></div>

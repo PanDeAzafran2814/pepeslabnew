@@ -36,7 +36,7 @@ function Project(props) {
                         visible < data.length && 
                         <div className="col-md-12">
                             <div className="btn-about center m-t16" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
-                                <Button title='Load More' path='#' onClick={showMoreItems} />
+                                <Button title={props.BtnTxt} path='#' onClick={showMoreItems} />
                             </div>
                         </div>
                     }

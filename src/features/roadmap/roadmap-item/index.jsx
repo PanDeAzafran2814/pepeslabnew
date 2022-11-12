@@ -8,15 +8,11 @@ RoadMapItem.propTypes = {
 function RoadMapItem(props) {
     const {item} = props;
     return (
-        <div key={item.id} className={`rm-box ${item.positon}`} data-aos="zoom-in" data-aos-duration="1200">
-            <div className={`corner-box ${item.style}`}>
-                <h5>{item.time}</h5>
+        <div className={`rm-box`} data-aos="zoom-in" data-aos-duration="1200">
+            <div className={`corner-box`}>
+                <h5>{props.title}</h5>
                 <ul>
-                    {
-                        item.list.map((li,idx) => (
-                            <li key={idx}>{li.text}</li>
-                        ))
-                    }
+                    <li>{props.subtitle}</li>
                 </ul>
             </div>
         </div>

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import './styles.scss'
 import RoadMapItem from './roadmap-item';
+import { useTranslation } from 'react-i18next';
 
 RoadMap.propTypes = {
     data: PropTypes.array,
@@ -10,6 +11,7 @@ RoadMap.propTypes = {
 function RoadMap(props) {
 
     const {data} = props;
+    const [t, i18n] = useTranslation("global")
 
     const [dataBlock] = useState(
         {
@@ -31,12 +33,10 @@ function RoadMap(props) {
                     </div>
                     <div className="col-md-12">
                         <div className="roadmap scrol">
-
-                                {
-                                    data.map(item => (
-                                        <RoadMapItem key={item.id} item ={item} />
-                                    ))
-                                }
+                            <RoadMapItem title={t("RoadMap.25")} subtitle={t("RoadMap.25Title")}/>
+                            <RoadMapItem title={t("RoadMap.50")} subtitle={t("RoadMap.50Title")}/>
+                            <RoadMapItem title={t("RoadMap.75")} subtitle={t("RoadMap.75Title")}/>
+                            <RoadMapItem title={t("RoadMap.100")} subtitle={t("RoadMap.100Title")}/>
                         </div>
                     </div>
                 </div>

@@ -10,8 +10,8 @@ function AccordionItem(props) {
     const {item} = props;
 
     return (
-        <Accordion key={item.id} title={item.title} show={item.show}>
-            <p className="toggle-content">{item.content}</p>
+        <Accordion title={props.tittle} show={props.show}>
+            <p className="toggle-content">{props.content}</p>
         </Accordion>
     );
 }

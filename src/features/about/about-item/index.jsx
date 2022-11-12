@@ -1,18 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { useTranslation } from 'react-i18next';
 
 AboutItem.propTypes = {
     item: PropTypes.object,
 };
 
 function AboutItem(props) {
+    const [t, i18n] = useTranslation("global")
 
     const {item} = props;
 
     return (
-        <div key={item.id} className={`box-text corner-box ${item.class}`}>
-            <div className="h7">{item.title}</div>
-            <p>{item.desc}</p>
+        <div className={`box-text corner-box`}>
+            <div className="h7">{t("About.PFirst")}</div>
+            <p>{t("About.PSecond")}</p>
         </div>
     );
 }
