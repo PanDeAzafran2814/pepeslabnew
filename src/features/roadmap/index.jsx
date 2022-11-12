@@ -19,7 +19,7 @@ function RoadMap(props) {
     )
 
     return (
-        <section className="tf-section tf-roadmap">
+        <section className="tf-section tf-roadmap" id='RoadMap'>
             <div className="overlay"></div>
             <div className="container">
                 <div className="row">

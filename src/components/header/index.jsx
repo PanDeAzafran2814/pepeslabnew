@@ -1,6 +1,6 @@
 import React , { useState , useEffect } from 'react';
 
-import { Link , NavLink } from 'react-router-dom';
+import {  NavLink } from 'react-router-dom';
 import menus from '../../pages/menu';
 
 import './styles.scss';
@@ -8,6 +8,7 @@ import logo from '../../assets/images/logo/EMPIRE-NFT-small.png'
 import { ConnectWallet } from "@thirdweb-dev/react";
 
 
+import { Link, animateScroll as scroll } from "react-scroll";
 
 
 const Header = () => {
@@ -50,7 +51,15 @@ const Header = () => {
                                     <li key={idx} onClick={()=> handleDropdown(idx)} className={`menu-item ${data.namesub ? 'menu-item-has-children' : ''} ${activeIndex === idx ? 'active' : ''}`} 
                                     
                                     >
-                                        <Link to={data.links}>{data.name}</Link>
+                                        <Link
+                                            activeClass="active"
+                                            to={data.links}
+                                            spy={true}
+                                            smooth={true}
+                                            offset={-70}
+                                            duration={500}
+                                         
+                                        >{data.name}</Link>
                                         {
                                             data.namesub &&
                                             <ul className="sub-menu">

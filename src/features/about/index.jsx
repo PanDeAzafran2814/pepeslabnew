@@ -21,7 +21,7 @@ function About(props) {
     )
 
     return (
-        <section className="tf-section tf-about">
+        <section className="tf-section tf-about" id='About'>
             <div className="container">
                 <div className="row">
                     <div className="col-xl-5 col-md-12">

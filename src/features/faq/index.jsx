@@ -19,7 +19,7 @@ function FAQ(props) {
     })
 
     return (
-        <section className="tf-section faq">
+        <section className="tf-section faq" id='Faq'>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">

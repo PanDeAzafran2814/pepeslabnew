@@ -2,33 +2,33 @@ const menus = [
     {
         id: 1,
         name: 'Home',
-        links: '#',
+        links: 'Home',
     },
     {
         id: 2,
         name: 'About',
-        links: '#',
+        links: 'About',
 
     },
     {
         id: 3,
         name: 'Road Map',
-        links: '#',
+        links: 'RoadMap',
     },
     {
         id: 4,
         name: 'Team',
-        links: '#',
+        links: 'Team',
     },
     {
         id: 5,
-        name: 'News',
-        links: '#',
+        name: 'NFT',
+        links: 'Nft',
     },
     {
         id: 6,
         name: 'FAQ',
-        links: '/contact'
+        links: 'Faq'
     },
     
 ]

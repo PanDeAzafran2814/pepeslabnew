@@ -14,7 +14,7 @@ Slider.propTypes = {
 function Slider(props) {
     const {data} = props;
     return (
-        <section className="slider">
+        <section className="slider" id='Home'>
             <Swiper
                 modules={[Navigation,  Scrollbar, A11y ]}
                     spaceBetween={0}

@@ -20,7 +20,7 @@ function NftItem(pops) {
     },[])
     //console.log(datacollrection[0]?.media.gateway)   
     return (
-        <div className='page-nft'>
+        <div className='page-nft' id='Nft'>
             {
             datacollrection !==undefined?
                 <>

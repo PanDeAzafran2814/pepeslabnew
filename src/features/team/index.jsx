@@ -19,11 +19,11 @@ function Team(props) {
     const [dataBlock] = useState({
         subtitle: 'Our team',
         title: 'Meet our TEAM',
-        desc: 'Who we are',
-        text: 'Purus, laoreet dui augue ut euismod. Elementum ante sociis volutpat tellus enim, nisl consectetur mauris. Venenatis congue id quis eget viverra. Vestibulum, justo, euismod congue feugiat eget fames gravida posuere.'
+        desc: '',
+        text: ''
     })
     return (
-        <section className="tf-section tf-team">
+        <section className="tf-section tf-team" id='Team'>
             <div className="container">
                 <div className="row">
                     <div className="col-xl-5 col-lg-5 col-md-6 col-12">

@@ -52,11 +52,20 @@
                 h1 {
                     font-size: 60px;
                 }
+                p{
+                    padding-right: 0;
+                    text-align: center;
+                }
             }
 
             @include mobile {
                 h1 {
                     font-size: 45px;
+                    text-align: center;
+                }
+                p{
+                    padding-right: 0;
+                    text-align: center;
                 }
             }
         }

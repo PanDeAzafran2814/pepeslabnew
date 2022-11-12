@@ -8,7 +8,7 @@ const dataTeam = [
         id: 1,
         img: img1,
         name: 'PEPE GARZA',
-        position: 'Co-founder & COO',
+        position: '',
         listsocial: [
             
         ]
@@ -17,7 +17,7 @@ const dataTeam = [
         id: 2,
         img: img2,
         name: 'WALDO SAUCEDA',
-        position: 'Co-founder & COO',
+        position: '',
         listsocial: [
             
         ]
@@ -26,7 +26,7 @@ const dataTeam = [
         id: 3,
         img: img3,
         name: 'VICTOR HERNANDEZ',
-        position: 'Co-founder & COO',
+        position: '',
         listsocial: [
             
         ]
@@ -35,7 +35,7 @@ const dataTeam = [
         id: 4,
         img: img4,
         name: 'HORUS',
-        position: 'Co-founder & COO',
+        position: '',
         listsocial: [
             
         ]
