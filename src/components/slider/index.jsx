@@ -22,14 +22,9 @@ function Slider(props) {
                     navigation
                     scrollbar={{ draggable: true }}
                 >
-                {
-                    data.slice(0,3).map(item => (
-                        <SwiperSlide key={item.id}>
-                            <SliderItem item={item} />
-                        </SwiperSlide>
-                        
-                    ))
-                }
+                <SwiperSlide>
+                    <SliderItem/>
+                </SwiperSlide>
             </Swiper>
 
         </section>
